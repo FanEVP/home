@@ -1,0 +1,51 @@
+/* colour scheme is a combination of following palettes: http://colorhunt.co/c/65088 (but reversed in terms of dominant colours) and http://colorhunt.co/c/65473  */
+body{
+	background-color: #1C0C59;
+	margin-left: 65px;
+	margin-right: 70px;
+} /* Margin increases legibility */
+
+.heading{
+	font-family: Andalus, Aparajita, serif;
+}
+	
+h1{
+	color: #5853BC;
+	font-size: 47px;
+}
+
+h2{
+	color: #5F4E9E;
+	font-size: 30px;
+}
+
+h3{
+	color: #362391;
+	font-size: 25px;
+}
+
+p, ul, ol{
+	color: #F6EB9A;
+	font-family: Dotum, "Browalia New", sans-serif;
+	font-size: 17px;
+	line-height: 20px;
+}
+
+p, ul, ol, h1, h2, h3{
+	text-align: justify;
+}
+
+a{
+	color: #FCC97B;
+}
+
+img{
+	border-width: medium;
+	border-style: double;
+	border-color: #FCC97B;
+	padding: 10px;
+}
+
+#home{
+	text-align: right;
+} /* This ID + rule is used to move the home link at the bottom of every subpage to the bottom right corner */

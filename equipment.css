@@ -1,0 +1,33 @@
+/* First three rules used to bold equipment names on the page only. One rule per h2 section (clothing, weapons, and electric equipment) for better organization. */
+#chest_protector, #knickers, #socks, #plastron, #jacket, #glove, #shoes, #mask{
+	font-weight: bold;
+}
+
+#foil, #sabre, #epee, #pistol, #French{
+	font-weight: bold;
+}
+
+#lame, #con_bib, #con_mask, #con-glove, #wire{
+	font-weight: bold;
+}
+
+/* Next two rules used to float images on the page to the right of some p elements */
+#equ_img{
+	float: right;
+	margin: 0px 0px 20px 20px;
+}
+
+#grip_img{
+	float: right;
+	margin: 0px 0px 20px 20px;
+}
+
+/* After grip_img is floated to the right, the electric equipment heading wraps around it. This is unaesthetic because a new top should be on a new line, so the margin is used to push this section down. */
+#electric {
+	margin-top: 60px;
+}
+
+/* Following rule is used to make the p elements in the image cited section smaller */
+#bib p{
+	font-size: 14px;
+}
