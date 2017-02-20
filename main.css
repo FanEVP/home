@@ -46,6 +46,11 @@ img{
 	padding: 10px;
 }
 
+/* Validator class rule used to remove border from validator images */
+.validator{
+	border: none;
+}
+
 #home{
 	text-align: right;
 } /* This ID + rule is used to move the home link at the bottom of every subpage to the bottom right corner */
